@@ -55,6 +55,7 @@ android {
             applicationIdSuffix '.debug'
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro', 'proguard-rules-stanging.pro'
         }
+
         release {
             signingConfig signingConfigs.release
             minifyEnabled false
