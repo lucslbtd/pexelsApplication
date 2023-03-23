@@ -17,7 +17,8 @@ android {
 
     signingConfigs {
         release {
-            storeFile file('C:\\Users\\lucasamartins\\StudioProjects\\pexelsapp\\store\\pexels_app.jks')
+            //storeFile file('C:\\Users\\lucasamartins\\StudioProjects\\pexelsapp\\store\\pexels_app.jks')
+            storeFile file('\\..\\store\\pexels_app.jks')
             storePassword '88262135'
             keyAlias 'pexels_app'
             keyPassword '88262135'
